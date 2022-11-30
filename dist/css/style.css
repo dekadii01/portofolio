@@ -1,0 +1,412 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #f1faee;
+}
+
+.header .navbar-brand {
+  font-size: 26px;
+}
+
+.header .navbar-nav a {
+  color: black;
+  margin-inline: 10px;
+}
+
+.header .navbar-nav a:hover {
+  color: #dc3545;
+}
+
+.header .row {
+  min-height: 85vh;
+}
+
+.header .row .col:nth-child(1) h1 {
+  font-size: 70px;
+  color: #120f30;
+}
+
+.header .row .col:nth-child(1) > p {
+  font-size: 15px;
+  padding-right: 70px;
+}
+
+i.iconPeople {
+  color: #dc3545;
+}
+
+.designer {
+  font-size: 15px;
+}
+
+img.hero-img {
+  width: 550px;
+  height: 550px;
+  z-index: 2;
+}
+
+.header .row .col:nth-child(2) img:nth-child(2) {
+  width: 600px;
+  z-index: 1;
+}
+
+.header .row .col:nth-child(2) img:nth-child(3) {
+  width: 120px;
+  z-index: 3;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-100%);
+}
+
+.header .row .col:nth-child(2) img:nth-child(4) {
+  width: 120px;
+  z-index: 4;
+  top: 50%;
+  left: -60px;
+}
+
+.skills {
+  min-height: 60vh;
+}
+
+.skills .container > h1 {
+  color: #120f30;
+}
+
+.skills .row .col p {
+  font-size: 14px;
+}
+
+.skills .row .col i {
+  color: #312e6a;
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-color: #f1faee;
+}
+
+.about .row {
+  min-height: 90vh;
+}
+
+.about .row .col img:nth-child(1) {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 550px;
+  height: 550px;
+  z-index: 2;
+}
+
+.about .row .col:nth-child(2) h1 {
+  color: #120f30;
+}
+
+.about .row .col img:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 500px;
+}
+
+.about .row .col .desc {
+  text-align: justify;
+}
+
+.about .row .col .brands-icon i {
+  font-size: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.about .row .col .brands-icon i:nth-child(1) {
+  color: #e9562f;
+}
+.about .row .col .brands-icon i:nth-child(2) {
+  color: #254bdd;
+}
+.about .row .col .brands-icon i:nth-child(3) {
+  color: #efd81d;
+}
+.about .row .col .brands-icon i:nth-child(4) {
+  color: #00c6f7;
+}
+.about .row .col .brands-icon i:nth-child(5) {
+  color: #732ffa;
+}
+
+.projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-inline: 10px;
+}
+
+.projects h1 {
+  color: #120f30;
+}
+
+.services {
+  padding-bottom: 100px;
+}
+
+.services h1 {
+  color: #120f30;
+}
+
+.services .row .col p {
+  text-align: justify;
+}
+
+.footer {
+  min-height: 50vh;
+  background-color: #f1faee;
+}
+
+.footer .row .col a {
+  color: black;
+}
+
+.footer .row .col a:hover {
+  color: #dc3545;
+}
+
+.copyright {
+  background-color: #f1faee;
+}
+
+.container-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.container-loader .spinner-grow {
+  width: 50px;
+  height: 50px;
+}
+
+.container-loader.loader-active {
+  display: none;
+}
+
+img#moomoon,
+img#pkk,
+img#starbak,
+img#my-porto,
+img#team-porto,
+img#belajar-grid {
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+img#moomoon:hover,
+img#pkk:hover,
+img#starbak:hover,
+img#my-porto:hover,
+img#team-porto:hover,
+img#belajar-grid:hover {
+  opacity: 0.5;
+}
+
+/* Responsive break point */
+
+@media screen and (max-width: 1200px) {
+  .header .row .col:nth-child(1) h1 {
+    font-size: 50px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(1) {
+    width: 500px;
+    height: 500px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(2) {
+    width: 500px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(3) {
+    right: -60px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(4) {
+    left: -40px;
+    top: 55%;
+  }
+
+  .about .row .col img:nth-child(1) {
+    width: 400px;
+    height: 400px;
+  }
+
+  .about .row .col img:nth-child(2) {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header .row .col:nth-child(2) img:nth-child(3) {
+    right: 50px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(4) {
+    left: 40px;
+    top: 55%;
+  }
+
+  .about .row {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about .row .col:nth-child(1) {
+    margin-bottom: 50px;
+  }
+
+  .about .row .col:nth-child(2) .desc {
+    text-align: center;
+  }
+
+  .about .row .col img:nth-child(1) {
+    position: relative;
+  }
+
+  .about .row .col .brands-icon i {
+    margin-right: 0;
+    margin-inline: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .row .col:nth-child(2) img:nth-child(1) {
+    width: 360px;
+    height: 360px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(2) {
+    width: 400px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(3) {
+    right: 10px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(4) {
+    left: 10px;
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header .row .col:nth-child(2) img:nth-child(3) {
+    display: none;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header .row .col:nth-child(1) h1 {
+    font-size: 40px;
+  }
+
+  .header .row .col:nth-child(1) > p {
+    font-size: 14px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(1) {
+    width: 260px;
+    height: 260px;
+  }
+
+  .designer {
+    font-size: 14px;
+  }
+
+  .descMe {
+    margin-bottom: 40px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(2) {
+    width: 300px;
+  }
+
+  .skills .row .col p {
+    padding: 0 50px;
+  }
+
+  .about .row .col img:nth-child(1) {
+    width: 310px;
+    height: 310px;
+  }
+
+  .about .row .col img:nth-child(2) {
+    width: 310px;
+  }
+
+  .about .row .col:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  .about .row .col .brands-icon i {
+    margin-inline: 5px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header .row .col:nth-child(1) h1 {
+    font-size: 32px;
+  }
+
+  .header .row .col:nth-child(1) > p {
+    font-size: 13px;
+  }
+
+  p.designer {
+    font-size: 13px;
+  }
+
+  .header .row .col:nth-child(2) img:nth-child(2) {
+    width: 280px;
+  }
+
+  .descMe {
+    margin-bottom: 20px;
+  }
+
+  .skills .row .col > h5 {
+    font-size: 18px;
+  }
+
+  .skills .row .col p {
+    font-size: 14px;
+  }
+
+  .about .row .col img:nth-child(1) {
+    width: 280px;
+    height: 280px;
+  }
+
+  .about .row .col img:nth-child(2) {
+    width: 290px;
+  }
+
+  .about .row .col .brands-icon i {
+    font-size: 40px;
+  }
+}
