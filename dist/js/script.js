@@ -1,6 +1,6 @@
 const cv = document.querySelector("#btn-cv");
 cv.addEventListener("click", function () {
-  window.open("assets/cv/myCv.pdf");
+  window.open("assets/cv/myCV.pdf");
 });
 
 const grid = document.querySelector("#belajar-grid");
