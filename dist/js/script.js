@@ -27,6 +27,10 @@ const teamPorto = document.querySelector("#team-porto");
 teamPorto.addEventListener("click", () => {
   window.open("https://dekadii01.github.io/Porto-team-PWPB/");
 });
+const theMalaka = document.querySelector("#the-malaka");
+theMalaka.addEventListener("click", () => {
+  window.open("https://dekadii01.github.io/the-malaka/");
+});
 
 const loader = document.querySelector(".container-loader");
 function loaderAktif() {

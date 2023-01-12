@@ -211,7 +211,8 @@ img#pkk,
 img#starbak,
 img#my-porto,
 img#team-porto,
-img#belajar-grid {
+img#belajar-grid,
+img#the-malaka {
   cursor: pointer;
   transition: all ease 0.5s;
 }
@@ -221,7 +222,8 @@ img#pkk:hover,
 img#starbak:hover,
 img#my-porto:hover,
 img#team-porto:hover,
-img#belajar-grid:hover {
+img#belajar-grid:hover,
+img#the-malaka:hover {
   opacity: 0.5;
 }
 
