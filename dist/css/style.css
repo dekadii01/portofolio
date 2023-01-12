@@ -28,7 +28,7 @@
   color: #120f30;
 }
 
-.header .row .col:nth-child(1) > p {
+.header .row .col:nth-child(1)>p {
   font-size: 15px;
   padding-right: 70px;
 }
@@ -71,7 +71,7 @@ img.hero-img {
   min-height: 60vh;
 }
 
-.skills .container > h1 {
+.skills .container>h1 {
   color: #120f30;
 }
 
@@ -129,15 +129,19 @@ img.hero-img {
 .about .row .col .brands-icon i:nth-child(1) {
   color: #e9562f;
 }
+
 .about .row .col .brands-icon i:nth-child(2) {
   color: #254bdd;
 }
+
 .about .row .col .brands-icon i:nth-child(3) {
   color: #efd81d;
 }
+
 .about .row .col .brands-icon i:nth-child(4) {
   color: #00c6f7;
 }
+
 .about .row .col .brands-icon i:nth-child(5) {
   color: #732ffa;
 }
@@ -325,7 +329,7 @@ img#belajar-grid:hover {
     font-size: 40px;
   }
 
-  .header .row .col:nth-child(1) > p {
+  .header .row .col:nth-child(1)>p {
     font-size: 14px;
   }
 
@@ -373,7 +377,7 @@ img#belajar-grid:hover {
     font-size: 32px;
   }
 
-  .header .row .col:nth-child(1) > p {
+  .header .row .col:nth-child(1)>p {
     font-size: 13px;
   }
 
@@ -389,7 +393,7 @@ img#belajar-grid:hover {
     margin-bottom: 20px;
   }
 
-  .skills .row .col > h5 {
+  .skills .row .col>h5 {
     font-size: 18px;
   }
 
