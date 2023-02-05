@@ -40,3 +40,16 @@ function loaderAktifTime() {
   setInterval(loaderAktif, 2000);
 }
 window.onload = loaderAktifTime();
+
+window.addEventListener("scroll", function () {
+  const header = document.querySelector("#nav-header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+  header.classList.remove("container", window.scrollY > 0);
+  header.classList.add("container-fluid", window.scrollY < 0);
+});
+
+const hamburger = document.querySelector("#hamburger-menu");
+hamburger.addEventListener("click", function () {
+  const test1 = document.querySelector("#nav-header.sticky");
+  test1.classList.toggle("marginTop");
+});
