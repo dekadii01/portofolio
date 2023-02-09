@@ -12,6 +12,7 @@
   padding: 20px 50px;
   z-index: 999;
   transition: all 0.5s ease;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
 }
 
 .header .navbar-brand {
