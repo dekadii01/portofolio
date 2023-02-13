@@ -63,7 +63,7 @@
                 <div class="col pt-5 pt-lg-0 mb-lg-0 mb-4">
                     <h1 data-aos="fade-up" data-aos-delay="2300" data-aos-duration="1300" class="fw-bold mb-4">
                         Hi! I Am <br />
-                        Adi Pramana
+                        <span class="multiText"></span>
                     </h1>
                     <p data-aos="fade-up" data-aos-delay="2500" data-aos-duration="1300" class="lh-lg mb-4">Saya adalah
                         seorang produk designer yang mendalami Front-end Developer | UI UX Design | Wordpress</p>
@@ -298,6 +298,9 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
 
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <!-- JS -->
     <script src="dist/js/script.js"></script>
 
@@ -307,6 +310,16 @@
         AOS.init({
             once: true,
         });
+    </script>
+
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Adi Pramana", "A Student", "Designer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
     </script>
 </body>
 
