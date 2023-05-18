@@ -31,6 +31,14 @@ const theMalaka = document.querySelector("#the-malaka");
 theMalaka.addEventListener("click", () => {
   window.open("https://dekadii01.github.io/the-malaka/");
 });
+const ladiTv = document.querySelector("#ladi-tv");
+ladiTv.addEventListener("click", () => {
+  window.open("http://laditv.epizy.com/");
+});
+const skensos = document.querySelector("#skensos");
+skensos.addEventListener("click", () => {
+  window.open("http://skensapilketos.epizy.com/");
+});
 
 const loader = document.querySelector(".container-loader");
 function loaderAktif() {
@@ -41,15 +49,24 @@ function loaderAktifTime() {
 }
 window.onload = loaderAktifTime();
 
-window.addEventListener("scroll", function () {
-  const header = document.querySelector("#nav-header");
-  header.classList.toggle("sticky", window.scrollY > 0);
-  header.classList.remove("container", window.scrollY > 0);
-  header.classList.add("container-fluid", window.scrollY < 0);
-});
+// website on scroll
 
-const hamburger = document.querySelector("#hamburger-menu");
-hamburger.addEventListener("click", function () {
-  const test1 = document.querySelector("#nav-header.sticky");
-  test1.classList.toggle("marginTop");
+window.onscroll = function () {
+  var navbar = document.getElementById("navbar1");
+  var sticky = navbar.offsetTop;
+
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
+
+window.addEventListener("scroll", function () {
+  var currentScrollPos = window.pageYOffset;
+
+  if (currentScrollPos === 0) {
+    var navbar = document.getElementById("navbar1");
+    navbar.classList.remove("sticky");
+  }
 });

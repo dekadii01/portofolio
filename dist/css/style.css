@@ -6,11 +6,16 @@
   background-color: #f1faee;
 }
 
-#nav-header.sticky {
+.gambar-project img {
+  cursor: pointer;
+}
+
+#navbar1.sticky {
   background-color: white;
   position: fixed;
   padding: 20px 50px;
   z-index: 999;
+  width: 100%;
   transition: all 0.5s ease;
   box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
 }
@@ -221,6 +226,8 @@ img#starbak,
 img#my-porto,
 img#team-porto,
 img#belajar-grid,
+img#ladi-tv,
+img#skensos,
 img#the-malaka {
   cursor: pointer;
   transition: all ease 0.5s;
@@ -232,6 +239,8 @@ img#starbak:hover,
 img#my-porto:hover,
 img#team-porto:hover,
 img#belajar-grid:hover,
+img#ladi-tv:hover,
+img#skensos:hover,
 img#the-malaka:hover {
   opacity: 0.5;
 }
@@ -397,7 +406,7 @@ img#the-malaka:hover {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
   .header .row .col:nth-child(1) h1 {
     font-size: 32px;
   }
@@ -437,5 +446,15 @@ img#the-malaka:hover {
 
   .about .row .col .brands-icon i {
     font-size: 40px;
+  }
+
+  #navbar1.sticky {
+    background-color: white;
+    position: fixed;
+    padding: 10px 0 !important;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
   }
 }
