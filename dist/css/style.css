@@ -404,6 +404,16 @@ img#the-malaka:hover {
   .about .row .col .brands-icon i {
     margin-inline: 5px;
   }
+
+  #navbar1.sticky {
+    background-color: white;
+    position: fixed;
+    padding: 10px 0 !important;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -446,15 +456,5 @@ img#the-malaka:hover {
 
   .about .row .col .brands-icon i {
     font-size: 40px;
-  }
-
-  #navbar1.sticky {
-    background-color: white;
-    position: fixed;
-    padding: 10px 0 !important;
-    z-index: 999;
-    width: 100%;
-    transition: all 0.5s ease;
-    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
   }
 }
