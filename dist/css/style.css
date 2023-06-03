@@ -160,6 +160,10 @@ img.hero-img {
   color: #732ffa;
 }
 
+.about .row .col .brands-icon i:nth-child(6) {
+  color: red;
+}
+
 .projects {
   padding-top: 100px;
   padding-bottom: 100px;
