@@ -40,6 +40,11 @@ skensos.addEventListener("click", () => {
   window.open("http://skensapilketos.epizy.com/");
 });
 
+const tailwind = document.querySelector("#tailwind");
+tailwind.addEventListener("click", () => {
+  window.open("https://dekadii01.github.io/portfolio-tailwind-css/");
+});
+
 const loader = document.querySelector(".container-loader");
 function loaderAktif() {
   loader.classList.add("loader-active");

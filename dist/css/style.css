@@ -42,7 +42,7 @@
   color: #120f30;
 }
 
-.header .row .col:nth-child(1)>p {
+.header .row .col:nth-child(1) > p {
   font-size: 15px;
   padding-right: 70px;
 }
@@ -85,7 +85,7 @@ img.hero-img {
   min-height: 60vh;
 }
 
-.skills .container>h1 {
+.skills .container > h1 {
   color: #120f30;
 }
 
@@ -153,7 +153,7 @@ img.hero-img {
 }
 
 .about .row .col .brands-icon i:nth-child(4) {
-  color: #787CB4;
+  color: #787cb4;
 }
 
 .about .row .col .brands-icon i:nth-child(5) {
@@ -232,6 +232,7 @@ img#team-porto,
 img#belajar-grid,
 img#ladi-tv,
 img#skensos,
+img#tailwind,
 img#the-malaka {
   cursor: pointer;
   transition: all ease 0.5s;
@@ -245,6 +246,7 @@ img#team-porto:hover,
 img#belajar-grid:hover,
 img#ladi-tv:hover,
 img#skensos:hover,
+img#tailwind:hover,
 img#the-malaka:hover {
   opacity: 0.5;
 }
@@ -358,8 +360,6 @@ img#the-malaka:hover {
   .navbar-collapse.collapse.show.marginTop {
     margin-top: 250px;
   }
-
-
 }
 
 @media screen and (max-width: 475px) {
@@ -367,7 +367,7 @@ img#the-malaka:hover {
     font-size: 40px;
   }
 
-  .header .row .col:nth-child(1)>p {
+  .header .row .col:nth-child(1) > p {
     font-size: 14px;
   }
 
@@ -425,7 +425,7 @@ img#the-malaka:hover {
     font-size: 32px;
   }
 
-  .header .row .col:nth-child(1)>p {
+  .header .row .col:nth-child(1) > p {
     font-size: 13px;
   }
 
@@ -441,7 +441,7 @@ img#the-malaka:hover {
     margin-bottom: 20px;
   }
 
-  .skills .row .col>h5 {
+  .skills .row .col > h5 {
     font-size: 18px;
   }
 
